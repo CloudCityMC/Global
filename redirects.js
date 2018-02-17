@@ -11,4 +11,18 @@ if (href == "/sell") {
 if (href == "/shop") {
   window.location = "https://forums.cloudcitymc.us/threads/items-that-should-be-sold-in-the-shop.10/";
 }
-//window.location = "http://cloudcitymc.us";
+if (href == "/rules") {
+  window.location = "https://smp.cloudcitymc.us/rules/";
+}
+if (href == "/terms") {
+  window.location = "https://smp.cloudcitymc.us/terms/";
+}
+if (href == "/UsefulCommands") {
+  window.location = "https://smp.cloudcitymc.us/UsefulCommands/";
+}
+if (href == "/ItemPrices") {
+  window.location = "https://smp.cloudcitymc.us/ItemPrices/";
+}
+if (href == "/enchantments") {
+  window.location = "https://smp.cloudcitymc.us/enchantments/";
+}
