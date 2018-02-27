@@ -1,4 +1,6 @@
 var href = window.location.pathname;
+href = href.toLowerCase();
+href = href.replace('.html','');
 if (href == "/vote") {
   window.location = "https://forums.cloudcitymc.us/threads/official-server-vote-links.5/";
 }
@@ -17,10 +19,10 @@ if (href == "/rules") {
 if (href == "/terms") {
   window.location = "https://smp.cloudcitymc.us/terms";
 }
-if (href == "/UsefulCommands") {
+if (href == "/usefulcommands") {
   window.location = "https://smp.cloudcitymc.us/UsefulCommands";
 }
-if (href == "/ItemPrices") {
+if (href == "/itemprices") {
   window.location = "https://smp.cloudcitymc.us/ItemPrices";
 }
 if (href == "/enchantments") {
