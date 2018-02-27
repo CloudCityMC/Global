@@ -1,6 +1,10 @@
 var href = window.location.pathname;
 href = href.toLowerCase();
 href = href.replace('.html','');
+var sub = href.substring(href.length-1);
+if(sub == "/") {
+  href = sub;
+}
 if (href == "/vote") {
   window.location = "https://forums.cloudcitymc.us/threads/official-server-vote-links.5/";
 }
